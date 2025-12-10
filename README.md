@@ -96,9 +96,7 @@ kilimo-ai/
 
 
 ## 📚 Documentation
-
 - [Architecture Overview](docs/ARCHITECTURE.md)
-- [Demo Script & Recording Guide](docs/DEMO.md)
 - [Workflow Guide](docs/WORKFLOW.md)
-- [Evaluator’s Guide](docs/EVALUATOR_GUIDE.md)
+
 
