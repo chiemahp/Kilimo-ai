@@ -1,0 +1,12 @@
+{
+  "Maize:Kiambu": {
+    "soil_pH_min": 5.5,
+    "soil_pH_max": 7.0,
+    "planting_cumulative_mm": 25,
+    "long_rains_window": "March–April",
+    "short_rains_window": "October–November",
+    "basal_fertilizer": "DAP or NPK 10-26-10",
+    "topdress_fertilizer": "Urea or CAN",
+    "altitude_m": 1700
+  }
+}

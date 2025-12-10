@@ -1,0 +1,4 @@
+crop,county,soil_pH_min,soil_pH_max,planting_cumulative_mm,long_rains_window,short_rains_window,basal_fertilizer,topdress_fertilizer,altitude_m
+Maize,Kiambu,5.5,7.0,25,March–April,October–November,DAP or NPK 10-26-10,Urea or CAN,1700
+Beans,Kiambu,5.8,6.5,20,March–April,October–November,NPK 17-17-17,CAN,1700
+Maize,Nairobi,5.5,7.0,25,March–April,October–November,DAP or NPK 10-26-10,Urea or CAN,1680
