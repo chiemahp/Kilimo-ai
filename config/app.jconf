@@ -1,0 +1,11 @@
+{
+  "expose_walkers": [
+    "init_farm",
+    "add_field",
+    "ingest_sensor",
+    "get_fields",
+    "get_field_detail",
+    "get_advisory"
+  ],
+  "env": { "llm_enabled": false }
+}

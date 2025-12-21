@@ -1,0 +1,18 @@
+{
+  "title": "Kilimo AI",
+  "routes": [
+    { "path": "/", "page": "Home.jcui" },
+    { "path": "/fields", "page": "Fields.jcui" },
+    { "path": "/fields/:name", "page": "FieldDetail.jcui" },
+    { "path": "/advisory/:name", "page": "Advisory.jcui" }
+  ],
+  "bindings": {
+    "get_fields": { "to": "GET", "path": "/api/fields" },
+    "get_field_detail": { "to": "GET", "path": "/api/fields/:name" },
+    "get_advisory": { "to": "GET", "path": "/api/advisory/:name" },
+    "ingest_sensor": { "to": "POST", "path": "/api/ingest" }
+  },
+  "assets": {
+    "styles": ["styles/theme.css"]
+  }
+}

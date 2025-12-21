@@ -1,0 +1,7 @@
+// AdvisoryPanel.jcui
+component AdvisoryPanel(text, status) {
+  card {
+    badge(status);
+    p(text);
+  }
+}

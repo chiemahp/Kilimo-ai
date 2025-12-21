@@ -1,0 +1,10 @@
+// SensorChart.jcui
+component SensorChart(series) {
+  chart {
+    type("line");
+    data(series);
+    x("updated_at");
+    y("value");
+    color("kind");
+  }
+}

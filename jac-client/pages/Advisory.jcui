@@ -1,0 +1,10 @@
+// Advisory.jcui
+page Advisory(name) {
+  data adv <- walker get_advisory(name=name);
+
+  section {
+    h2("Advisory for " + adv.field);
+    component AdvisoryPanel(text=adv.advice, status=adv.status);
+    link("/fields", "← Back to fields");
+  }
+}

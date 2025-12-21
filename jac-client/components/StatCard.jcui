@@ -1,0 +1,12 @@
+// StatCard.jcui
+component StatCard(title, subtitle, status, metrics, link) {
+  card {
+    h3(title);
+    p(subtitle);
+    badge(status);
+    for m in metrics {
+      p(m.label + ": " + m.value + " " + m.unit);
+    }
+    link(link, "Details →");
+  }
+}

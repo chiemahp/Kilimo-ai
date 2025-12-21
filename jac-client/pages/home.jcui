@@ -1,0 +1,8 @@
+// Home.jcui
+page Home {
+  section {
+    h1("🌱 Kilimo AI");
+    p("Monitor fields, track sensors, and get context-aware advisory.");
+    link("/fields", "View fields →");
+  }
+}

@@ -1,0 +1,21 @@
+page Fields {
+  data fields <- walker get_fields();
+
+  section {
+    h2("Your fields");
+    for f in fields {
+      component StatCard(
+        title=f.name,
+        subtitle=f.crop,
+        status=f.status,
+        metrics=[
+          {"label":"Moisture","value":f.moisture,"unit":"%"},
+          {"label":"Temp","value":f.temp_c,"unit":"°C"},
+          {"label":"NDVI","value":f.ndvi,"unit":"idx"}
+        ],
+        link={`/fields/${f.name}`}
+      );
+    }
+  }
+}
+

@@ -1,0 +1,11 @@
+// FieldDetail.jcui
+page FieldDetail(name) {
+  data detail <- walker get_field_detail(name=name);
+
+  section {
+    h2(detail.name + " — " + detail.crop);
+    p("Status: " + detail.status);
+    component SensorChart(series=detail.sensors);
+    link(`/advisory/${detail.name}`, "Get advisory →");
+  }
+}
